@@ -1,0 +1,150 @@
+
+
+
+.inputSend{
+  background-color: rgba(255, 255, 255, 0.287);
+  height: 20px;
+  width: 75%;
+  position: absolute;
+  bottom: 7px;
+  outline: none;
+  border-radius: 30px;
+
+}
+.inputButton{
+  background-image: url('https://www.flaticon.com/svg/static/icons/svg/724/724954.svg');
+  background-color: transparent;
+  background-repeat: no-repeat;
+   height: 25px;
+    width: 30px;
+    position: absolute;
+    bottom: 6px;
+    outline: none;
+    margin-left: 76.3%;
+    border-radius: 0px 80px 80px 0px;
+}
+.ImageButton{
+
+  height: 25px;
+  width: 11%;
+  position: absolute;
+  bottom: 17px;
+  outline: none;
+  margin-left: 83%;
+  border-radius: 30px;
+}
+
+#progressDiv{
+ position: sticky;
+  top: 54px;
+
+background-color: rgba(161, 87, 161, 0.65);
+  margin-left: 20%;
+  display:none;
+  flex-direction: column;
+padding: 10px;
+align-items: flex-start;
+font-size: 20px;
+font-family: 'Josefin Sans', sans-serif;
+}
+.fixed{
+
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(114, 109, 109, 0.103);
+color:white;
+font-size: 17px;
+margin-top: 5px;
+font-family: 'Ubuntu', sans-serif;
+
+}
+
+.color{
+    background-color: #4e54c8;
+    position: fixed;
+    bottom: 6px;
+    outline: none;
+    width: 100%;
+    height: 29px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+ .fixed {
+    font-size: 10px;
+  }
+  .logout{
+  width: 25px !important;
+  height: 25px !important;
+   
+   
+   }
+}
+
+.chat{
+  width: 100%;
+ 
+  display:flex;
+  flex-direction: column;
+
+}
+.UserDiv{
+  width: 70%;
+  display:flex;
+  flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+flex-wrap: wrap;
+
+}
+.mapDiv{
+  
+  margin-left: 20%;
+  display:flex;
+  flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 10px;
+ flex-wrap: wrap;
+}
+.font{
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow:   inset 0 0 10px #000000;
+ font-size: medium;
+}
+.font1{
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Source Serif Pro', serif;
+box-shadow:   inset 0 0 10px #000000;
+font-size: medium;
+}
+.empty{
+  height: 60px;
+}
+.logout{
+ width: 30px;
+ height: 30px;
+ margin-top: 8px;
+ cursor: pointer;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-left: -10%;
+ background-image: url('https://www.flaticon.com/svg/static/icons/svg/1828/1828300.svg');
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.mainLogout{
+display: flex;
+flex-direction: column;
+
+}
+.mainLogout>p{
+ margin-left: -15px;
+}
