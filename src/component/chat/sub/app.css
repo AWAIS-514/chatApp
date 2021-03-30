@@ -148,3 +148,9 @@ flex-direction: column;
 .mainLogout>p{
  margin-left: -15px;
 }
+.recievedata{
+  text-decoration: none !important;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+}

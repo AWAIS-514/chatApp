@@ -108,7 +108,7 @@ myPromise
   return (
     <div className={classes.root}>
     <input
-      accept="image/*"
+      
       className={classes.input}
       id="contained-button-file"
       multiple

@@ -88,7 +88,6 @@ if(v.uid!==Uid){
 
 
 </div>
-Working on something for latest feature so maybe you face some ui error,s
 
 
 </div>

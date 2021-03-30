@@ -179,10 +179,9 @@ Your Upload Progress:{this.state.progress}%
 
      
 
-  <a href={v.messege} download={v.messege}>
+  <a href={v.messege} className='recievedata' download={v.messege}>
 
-    <img src={v.messege} style={{width:'210px',padding:'10px'}} alt="proxchat" srcset=""/>
-
+    <p className='recievedata'>Recieve:Click to download</p>
   </a>
 
     </div>
@@ -192,6 +191,9 @@ Your Upload Progress:{this.state.progress}%
         <div className="font1" style={{backgroundColor:"rgba(255, 127, 80, 0.746)" ,padding:"10px"}}>
      <p>{v.messege}</p>
      </div>
+
+
+     
           </div>
          
          
