@@ -114,8 +114,10 @@ render(){
   return(
     <div className="overall_subchat">
      <div  className="pici">
-    
-    <h1 className="merge">Prox-chat</h1>
+    <img style={{width:50,height:30,position:'absolute',left:0,top:10,cursor:'pointer'}} src={'https://o.remove.bg/downloads/3a6573d1-8bab-4989-8ec5-568678fd4684/image-removebg-preview.png'} onClick={()=>this.props.history.push('/')} />
+
+
+
    
    <div className="manage">
    <img className="curimg" src={localStorage.getItem("currentImage")} ></img>

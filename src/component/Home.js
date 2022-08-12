@@ -30,7 +30,7 @@ render(){
   
     
     
-     <div className="btni" onClick={()=>this.props.facebook(this.props.history)}><span><h4>Login via Facebook</h4></span><em></em></div>
+     {/* <div className="btni" onClick={()=>this.props.facebook(this.props.history)}><span><h4>Login via Facebook</h4></span><em></em></div> */}
      <div className="btni" onClick={()=>this.props.google(this.props.history)}><span><h4>Login via google</h4></span><em></em></div>
   
     </div>

@@ -43,18 +43,17 @@ return(
   
 <div className="mainLogout">
 <div className="logout" onClick={()=>this.logout(this.props.history)}>
-
+<img style={{width:50,height:30,position:'absolute',left:0,top:10,cursor:'pointer'}} src={'https://o.remove.bg/downloads/3a6573d1-8bab-4989-8ec5-568678fd4684/image-removebg-preview.png'}  />
 </div>
-<p>Logout</p>
 </div>
   
     <h1 className="merge">Prox-chat</h1>
    
    <div className="manage">
    <img className="curimg" src={photo}></img>
-    <div>
+    {/* <div>
     {name}
-    </div>
+    </div> */}
 </div>
 
 </div> 
